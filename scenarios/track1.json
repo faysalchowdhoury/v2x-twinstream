@@ -1,0 +1,121 @@
+{
+ "id": "track1_cav_bsm",
+ "title": "Track 1 - CAV: Forged BSM position (CACC platoon)",
+ "domain": "cav",
+ "fps": 30,
+ "duration_ms": 29900,
+ "requires": [
+  "NGSIM sample (bundled)"
+ ],
+ "summary": "A leader's SAE J2735 BSMs are forged (+12 m position step). The follower's cooperative controller trusts them and closes on the REAL leader.",
+ "data": {
+  "pair": [
+   85,
+   60,
+   709,
+   1036
+  ],
+  "attack": "step_offset",
+  "t_a_idx": 50
+ },
+ "start": "n_obs",
+ "nodes": [
+  {
+   "id": "n_obs",
+   "t_start_ms": 0,
+   "t_end_ms": 5300,
+   "title": "Observe",
+   "narration": "Real NGSIM Peachtree traffic, 10 Hz BSMs. At t=5.0 s the leader's claimed position jumps 12 m ahead of its true position. The physics verifier (v = v0 + a dt, displacement = v dt, V2X gap vs ranging gap) alerts 200 ms later.",
+   "defender": [
+    {
+     "t_ms": 0,
+     "text": "Baseline: claimed BSM kinematics are self-consistent."
+    },
+    {
+     "t_ms": 5000,
+     "text": "Claimed position steps +12 m (ground truth unchanged)."
+    },
+    {
+     "t_ms": 5200,
+     "text": "Verifier alert: V2X gap disagrees with onboard ranging."
+    }
+   ],
+   "gate": {
+    "t_ms": 5300,
+    "question": "The verifier has flagged the leader's BSMs. What does the follower do?",
+    "options": [
+     {
+      "id": "ignore",
+      "label": "Keep following the BSM (treat as noise)",
+      "effect": "ignore",
+      "next": "n_ignore",
+      "feedback": "The follower keeps trusting a forged position and brakes too late.",
+      "score": -10
+     },
+     {
+      "id": "fallback_now",
+      "label": "Fall back to onboard ranging immediately",
+      "effect": "fallback_now",
+      "next": "n_fallback",
+      "feedback": "Correct: ranging does not depend on the forged message.",
+      "score": 10
+     },
+     {
+      "id": "wait_confirm",
+      "label": "Wait 5 s for confirmation, then fall back",
+      "effect": "wait_confirm",
+      "next": "n_wait",
+      "feedback": "Waiting for more evidence costs seconds the gap does not have.",
+      "score": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "n_ignore",
+   "t_start_ms": 5300,
+   "t_end_ms": 29900,
+   "terminal": true,
+   "title": "Outcome: alert ignored",
+   "narration": "The follower believes the leader is 12 m farther away than it is.",
+   "defender": [
+    {
+     "t_ms": 5300,
+     "text": "Alert dismissed. CACC continues on forged data."
+    }
+   ]
+  },
+  {
+   "id": "n_fallback",
+   "t_start_ms": 5300,
+   "t_end_ms": 29900,
+   "terminal": true,
+   "title": "Outcome: immediate fallback",
+   "narration": "The follower switches to ranging and re-establishes a safe gap.",
+   "defender": [
+    {
+     "t_ms": 5300,
+     "text": "Quarantine the leader's BSMs; switch to radar-only gap control."
+    }
+   ]
+  },
+  {
+   "id": "n_wait",
+   "t_start_ms": 5300,
+   "t_end_ms": 29900,
+   "terminal": true,
+   "title": "Outcome: delayed fallback",
+   "narration": "The follower keeps trusting the forged BSMs for five more seconds.",
+   "defender": [
+    {
+     "t_ms": 5300,
+     "text": "Waiting for confirmation..."
+    },
+    {
+     "t_ms": 10300,
+     "text": "Fallback engaged (5 s late)."
+    }
+   ]
+  }
+ ]
+}

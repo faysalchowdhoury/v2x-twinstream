@@ -1,0 +1,4754 @@
+{
+ "85-60-709-1036|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 4.481615933030195,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 268,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 57,
+   "min_ttc": 4.522456448441653,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 4.481615933030195,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.116382502402567,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 268,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 3.116382502402567,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.116382502402567,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 4.332296057051803,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 268,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 123,
+   "min_ttc": 3.5620004860595547,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 4.437745503874011,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 4.453903164003192,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 268,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 299,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 4.438599196214192,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 4.4879741883620845,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 54,
+   "min_ttc": 4.323115446609968,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 4.4879741883620845,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.9301755203935493,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 268,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.9301755203935493,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 4.390080350491605,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 298,
+   "min_ttc": 3.1155523834992183,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 3.1155523834992183,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 4.390080350491605,
+   "collision": false
+  }
+ },
+ "85-60-709-1036|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 4.349935266094177,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 298,
+   "min_ttc": 3.087298786382563,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 3.087298786382563,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 4.349935266094177,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.2171057443550275,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 115,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.2171057443550275,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.7961445798668914,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 115,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.7961445798668914,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.66452257146584,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.093484892770308,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 118,
+   "min_ttc": 2.907747299989062,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.8273546375196776,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 3.9015108079033967,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.3155712291612653,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 177,
+   "min_ttc": 2.3155712291612653,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.9519605946498992,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.1338461665896205,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 83,
+   "min_ttc": 1.3261075450591433,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.1338461665896205,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.658931534375275,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 83,
+   "min_ttc": 2.54297077123043,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.658931534375275,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|stale_replay|50": {
+  "physics": {
+   "alert_idx": 152,
+   "min_ttc": 3.8438443677073577,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8438443677073577,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 189,
+   "min_ttc": 3.8438443677073577,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.8422814574492348,
+   "collision": false
+  }
+ },
+ "1170-1262-7262-7470|stale_replay|80": {
+  "physics": {
+   "alert_idx": 152,
+   "min_ttc": 3.9519605946498992,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.9519605946498992,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 189,
+   "min_ttc": 3.9519605946498992,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.9519605946498992,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.2776724644128787,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.2776724644128787,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.65251397602985,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.06423126497726499,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 1.0052684022402267,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.65251397602985,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 4.531181703189874,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.531181703189874,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 124,
+   "min_ttc": 4.531181703189874,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 4.81355984575735,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 125,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.08104480043249,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 107,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.08104480043249,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.4199482848078433,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 107,
+   "min_ttc": 0.6974088529676705,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.6974088529676705,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.4199482848078433,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 5.433154684530265,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.433154684530265,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 131,
+   "min_ttc": 5.433154684530265,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 5.433154684530265,
+   "collision": false
+  }
+ },
+ "1271-1223-7971-8142|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 131,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 5.591139181938647,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.2811664930131905,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 155,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.2811664930131905,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.8402346884632,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 155,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.8402346884632,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.652671371450091,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 260,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.8448799101556,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 3.823015525788296,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 262,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.923266308755482,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.2012150965301758,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 229,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 80,
+   "min_ttc": 1.6278840430007653,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.2012150965301758,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.7092833295436276,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 229,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.7092833295436276,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.7092833295436276,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|stale_replay|50": {
+  "physics": {
+   "alert_idx": 241,
+   "min_ttc": 3.8534375375280225,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 265,
+   "min_ttc": 3.8534375375280225,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 279,
+   "min_ttc": 3.8534375375280225,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 98,
+   "min_ttc": 3.8534375375280225,
+   "collision": false
+  }
+ },
+ "300-273-2234-2535|stale_replay|80": {
+  "physics": {
+   "alert_idx": 241,
+   "min_ttc": 3.923266308755482,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 265,
+   "min_ttc": 3.923266308755482,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 279,
+   "min_ttc": 3.923266308755482,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 98,
+   "min_ttc": 3.923266308755482,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.2322092534735378,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 61,
+   "min_ttc": 0.14239830892925795,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.2322092534735378,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.3209530490616734,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.3209530490616734,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.3209530490616734,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.9624036726026475,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.9624036726026475,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 3.9624036726026475,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.9624036726026475,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 22.060357684558305,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 8.731830430693236,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 8.731830430693236,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 21.34755075681931,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.057510336723463,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 89,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.057510336723463,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.1252889003820339,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 89,
+   "min_ttc": 0.6637212559450125,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.1252889003820339,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.1252889003820339,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.7634278206441576,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 63,
+   "min_ttc": 1.8773568378754593,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 2.7634278206441576,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.7634278206441576,
+   "collision": false
+  }
+ },
+ "1390-1387-8702-8909|stale_replay|80": {
+  "physics": {
+   "alert_idx": 98,
+   "min_ttc": 19.975952580656138,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": Infinity,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 124,
+   "min_ttc": 15.208508543380999,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 21.289726776664732,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.658820950586931,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 68,
+   "min_ttc": 1.4249961570953986,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.658820950586931,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.7783235610924235,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.7783235610924235,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.7783235610924235,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 4.163357213843069,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.163357213843069,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 152,
+   "min_ttc": 4.163357213843069,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 4.456982960160009,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 153,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.534249477511701,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 157,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 80,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.534249477511701,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.490413330257305,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 157,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.490413330257305,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.490413330257305,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 4.890901987286563,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 8.268651395355585,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 4.890901987286563,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 4.890901987286563,
+   "collision": false
+  }
+ },
+ "932-925-5427-5595|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 5.2879531321905455,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.8946471281663495,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 71,
+   "min_ttc": 0.5709370376943571,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.8946471281663495,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.8815643043710062,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 84,
+   "min_ttc": 1.588330041532242,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.8815643043710062,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.8954632176652644,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 122,
+   "min_ttc": 1.860907877945174,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 1.8988544639547074,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 1.88638205266156,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 122,
+   "min_ttc": 1.8823835006196252,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 1.8987282528900462,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.8939620035716875,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 90,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.8939620035716875,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.6781965391981137,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 90,
+   "min_ttc": 0.7049436472301033,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.6781965391981137,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.8988776986924254,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.4479610963706895,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 1.8988776986924254,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.8988776986924254,
+   "collision": false
+  }
+ },
+ "1318-1311-7354-7601|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.8963102145650832,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.448457854035361,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 127,
+   "min_ttc": 2.0013491140890958,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.8963102145650832,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.3339581841963573,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.3339581841963573,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.9785683175839035,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 0.3189084223857815,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.9785683175839035,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 2.5038976006641764,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.5639422354183365,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 188,
+   "min_ttc": 0.5639422354183365,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 2.7229802060838333,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 2.462874130352215,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.4307931719235305,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 2.4307931719235305,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 2.7112935882129445,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.2686574162221698,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 97,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.2686574162221698,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.9306282993630233,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 97,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.9306282993630233,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.8431812124458933,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.3365029711612895,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 2.8431812124458933,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.8431812124458933,
+   "collision": false
+  }
+ },
+ "1483-1476-8278-8479|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.628164185401284,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.04424264886599,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.628164185401284,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.628164185401284,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 54,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.3809831599822784,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.245953382671933,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 116,
+   "min_ttc": 2.619968512197468,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.4033511208145562,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.245953382671933,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.2618733781900673,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.2656235758936867,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 2.2656235758936867,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 3.2197125920498406,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.6567914310823144,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 2.6567914310823144,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.2654826101224668,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 132,
+   "min_ttc": 1.748721644394665,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.2426925945551726,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 132,
+   "min_ttc": 1.7627009260724726,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.2426925945551726,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 3.1571058782498467,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.265853873141113,
+   "collision": false
+  }
+ },
+ "265-252-1712-1878|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.2691746846908893,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 148,
+   "min_ttc": 3.1554913580096375,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 3.1554913580096375,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.2691746846908893,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.8836579202908177,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 68,
+   "min_ttc": 1.437357193098618,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.8836579202908177,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.436643029493923,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.436643029493923,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.436643029493923,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.884148335080272,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 182,
+   "min_ttc": 1.741566093473026,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 1.8856716358307426,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 1.8816724586902958,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 1.8856204007001753,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.8833306305125377,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 66,
+   "min_ttc": 1.231410956880855,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.8833306305125377,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.3486003466638061,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.3486003466638061,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.3486003466638061,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.8864949999502336,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.706534528135601,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 1.8864949999502336,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.8864949999502336,
+   "collision": false
+  }
+ },
+ "1311-1293-7315-7561|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.889316777328403,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.5428452213393236,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.889316777328403,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.889316777328403,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.9543045402779706,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.9543045402779706,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.493127042350743,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.493127042350743,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 1.920129944795162,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 173,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 2.1265003324628924,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 2.119442496863863,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.119442496863863,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 185,
+   "min_ttc": 2.119442496863863,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 2.119442496863863,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 1.9287434120150713,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 152,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 1.9287434120150713,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.419488804525495,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 152,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.419488804525495,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.412880748393619,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 145,
+   "min_ttc": 1.863696934027256,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 2.412880748393619,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.412880748393619,
+   "collision": false
+  }
+ },
+ "1480-1444-8976-9170|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.1002965991147873,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 145,
+   "min_ttc": 1.0184222883787024,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 84,
+   "min_ttc": 2.1002965991147873,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.1002965991147873,
+   "collision": false
+  }
+ },
+ "60-50-453-617|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.4193764044849297,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 56,
+   "min_ttc": 2.8890545069475593,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.4193764044849297,
+   "collision": false
+  }
+ },
+ "60-50-453-617|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 6.592734409920143,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.7724116526815104,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 6.592734409920143,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 6.592734409920143,
+   "collision": false
+  }
+ },
+ "60-50-453-617|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.448775144504278,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 57,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  }
+ },
+ "60-50-453-617|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 7.85568183094097,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.285657515514977,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 84,
+   "min_ttc": 7.675581833032436,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 7.6734172192513235,
+   "collision": false
+  }
+ },
+ "60-50-453-617|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.1901379865993156,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 142,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 56,
+   "min_ttc": 2.6323299400718487,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.1901379865993156,
+   "collision": false
+  }
+ },
+ "60-50-453-617|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 6.010975726661245,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 142,
+   "min_ttc": 0.21100011730007237,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 104,
+   "min_ttc": 2.307076875805455,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 6.010975726661245,
+   "collision": false
+  }
+ },
+ "60-50-453-617|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 110,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 5.221794118394949,
+   "collision": false
+  }
+ },
+ "60-50-453-617|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 7.121868742867029,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 12.7760519291916,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 110,
+   "min_ttc": 6.431096935495627,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 7.121868742867029,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.35213974893876,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 92,
+   "min_ttc": 1.3618403389590645,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.35213974893876,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.9048105881597763,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 92,
+   "min_ttc": 2.125000978708634,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.9048105881597763,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.648203278657435,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 3.530143619391739,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.8366903015348317,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 3.7849187311230126,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.663851602532384,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 3.8832060024602564,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.8832060024602564,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.2782478456306916,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 220,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 66,
+   "min_ttc": 2.482736561635777,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.2782478456306916,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.7831236797679497,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 220,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 88,
+   "min_ttc": 2.238692429941637,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.7831236797679497,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|stale_replay|50": {
+  "physics": {
+   "alert_idx": 192,
+   "min_ttc": 3.8425776398418683,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8425776398418683,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 3.8425776398418683,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 179,
+   "min_ttc": 3.8425776398418683,
+   "collision": false
+  }
+ },
+ "193-171-1299-1535|stale_replay|80": {
+  "physics": {
+   "alert_idx": 192,
+   "min_ttc": 3.8832060024602564,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8832060024602564,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 3.8832060024602564,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 179,
+   "min_ttc": 3.8832060024602564,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.9859383169625104,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 106,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.9859383169625104,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.5118633265274157,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 106,
+   "min_ttc": 0.2100645214256327,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.5118633265274157,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.782677884720705,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.951412276718803,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 1.951412276718803,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.9194717350801,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 4.104830720362224,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.4176546817753297,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 3.4176546817753297,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 4.245069439923179,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.8703700480400323,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 58,
+   "min_ttc": 2.3450174673471462,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.8703700480400323,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.338541210530074,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.338541210530074,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.338541210530074,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|stale_replay|50": {
+  "physics": {
+   "alert_idx": 143,
+   "min_ttc": 3.9194717350801,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.9194717350801,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 148,
+   "min_ttc": 3.9194717350801,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.9194717350801,
+   "collision": false
+  }
+ },
+ "1524-1176-8345-8529|stale_replay|80": {
+  "physics": {
+   "alert_idx": 143,
+   "min_ttc": 4.245069439923179,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.245069439923179,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 148,
+   "min_ttc": 4.245069439923179,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 4.245069439923179,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.981359377564621,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 89,
+   "min_ttc": 0.4711307895405878,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.981359377564621,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.7697344603211222,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 89,
+   "min_ttc": 1.8708191934519836,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.7697344603211222,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.449211566687305,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.9945165768923805,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 91,
+   "min_ttc": 3.06128389557678,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.724932461160157,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 3.5484981263893456,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.5484981263893456,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 91,
+   "min_ttc": 3.578030832229112,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.704682847069767,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.8082504986334285,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 89,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.8082504986334285,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.6514745315743355,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 89,
+   "min_ttc": 1.773405480512038,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.6514745315743355,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.783304929663248,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 7.160381878188863,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 3.783304929663248,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.783304929663248,
+   "collision": false
+  }
+ },
+ "925-919-5402-5566|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 4.989012567589671,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 12.090873130949744,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 4.989012567589671,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 4.989012567589671,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.1380138862120996,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 102,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.1380138862120996,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.7082185597719004,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 102,
+   "min_ttc": 1.0316398382245682,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.7082185597719004,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.694662657330039,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 173,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.8401481560817254,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 3.983952067238708,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.9463218110501412,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 193,
+   "min_ttc": 1.9463218110501412,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 4.0311742688758425,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.045274606611767,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 131,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.045274606611767,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.5586110938636035,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 131,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.5586110938636035,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|stale_replay|50": {
+  "physics": {
+   "alert_idx": 153,
+   "min_ttc": 3.8584880249260056,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8584880249260056,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 196,
+   "min_ttc": 3.8584880249260056,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.8584880249260056,
+   "collision": false
+  }
+ },
+ "1476-1473-8247-8482|stale_replay|80": {
+  "physics": {
+   "alert_idx": 153,
+   "min_ttc": 4.0311742688758425,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.0311742688758425,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 196,
+   "min_ttc": 4.0311742688758425,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 4.0311742688758425,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.390246720696609,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 0.27589912322579,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.390246720696609,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.956194626253773,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 1.1377934352334658,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.956194626253773,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.6332142870597606,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.8694388850522439,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 3.2463680417197307,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.8111502987151913,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 3.7672026495150712,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.1800525898651157,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 3.8034419683431495,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.8445640401233105,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.322593279035236,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 108,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.322593279035236,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.8428800215719767,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 108,
+   "min_ttc": 0.9371087481159975,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.8428800215719767,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|stale_replay|50": {
+  "physics": {
+   "alert_idx": 155,
+   "min_ttc": 3.815859446024799,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.815859446024799,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 3.815859446024799,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 144,
+   "min_ttc": 3.815859446024799,
+   "collision": false
+  }
+ },
+ "1444-1358-8952-9133|stale_replay|80": {
+  "physics": {
+   "alert_idx": 155,
+   "min_ttc": 3.8445640401233105,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8445640401233105,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 109,
+   "min_ttc": 3.8445640401233105,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 144,
+   "min_ttc": 3.8445640401233105,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.3165946465003397,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 54,
+   "min_ttc": 3.1816851400650417,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 1.135012134842542,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.3165946465003397,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.829561773334863,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 1.9623825203816483,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.829561773334863,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.6112904029772506,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 54,
+   "min_ttc": 3.654923747030363,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 97,
+   "min_ttc": 3.452417707865463,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.657530255532502,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 3.8247486590266475,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.4265219318066977,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 97,
+   "min_ttc": 3.8314934345431317,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.8314934345431317,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.241029877623495,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 67,
+   "min_ttc": 2.3020698311987666,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.241029877623495,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.703535661283396,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 139,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.703535661283396,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.71348239287602,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.66838699076591,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 105,
+   "min_ttc": 3.66838699076591,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.71348239287602,
+   "collision": false
+  }
+ },
+ "530-524-3241-3402|stale_replay|80": {
+  "physics": {
+   "alert_idx": 144,
+   "min_ttc": 3.716977536424202,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.716977536424202,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 105,
+   "min_ttc": 3.716977536424202,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.7587356410960417,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.5610664595131634,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 178,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.1502386265612272,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.5610664595131634,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.4308425928256314,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 178,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.4308425928256314,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.4308425928256314,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.568608673668581,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 178,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 106,
+   "min_ttc": 2.2460020651892796,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 2.6190769928528215,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 2.388355440801526,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 178,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 2.6170169898671776,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.550958791001865,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 177,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 67,
+   "min_ttc": 1.4708746031878999,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.550958791001865,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.3983879339772747,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 177,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.3983879339772747,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.3983879339772747,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.678608611269732,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 208,
+   "min_ttc": 2.4569546900350634,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 2.678608611269732,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.678608611269732,
+   "collision": false
+  }
+ },
+ "247-245-1469-1697|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.76751913292227,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 208,
+   "min_ttc": 2.2978761663263003,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.76751913292227,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.76751913292227,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.0801887482491095,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 2.0801887482491095,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.0801887482491095,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.0193311627963313,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.0193311627963313,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.0193311627963313,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 2.0729524109768973,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.0056328199416824,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 85,
+   "min_ttc": 2.067362100570213,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 2.1058631423421184,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 2.0069810810005895,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.4500349518844697,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 85,
+   "min_ttc": 2.1036322306931217,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 2.104817638987976,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.0801887482491095,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 2.0801887482491095,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.0801887482491095,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.015873251177737,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.015873251177737,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.015873251177737,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.199882042713099,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.2146364145336834,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 62,
+   "min_ttc": 2.3764456101192777,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.199882042713099,
+   "collision": false
+  }
+ },
+ "1343-1318-7449-7629|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.3124759062148987,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.1397565676821997,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 2.3124759062148987,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.3124759062148987,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.339418759083896,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 72,
+   "min_ttc": 1.910360318741974,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.339418759083896,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.768176166947263,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 88,
+   "min_ttc": 1.9381502016935588,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.768176166947263,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.8418600866431083,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.816984852179438,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 73,
+   "min_ttc": 3.8418600866431083,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.9385707613985677,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 4.5276392215568,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.5276392215568,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 115,
+   "min_ttc": 4.5276392215568,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 4.6461784246200235,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.232679906034631,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 71,
+   "min_ttc": 1.7370565340941122,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.232679906034631,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.5742140362010115,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 100,
+   "min_ttc": 1.6850076205797986,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.5742140362010115,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 4.325321440351418,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.48056023513852,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 4.48056023513852,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 4.325321440351418,
+   "collision": false
+  }
+ },
+ "1708-75-1358-1514|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 5.2544550256660285,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.342727487392225,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 5.342727487392225,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 5.2544550256660285,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.111271641979613,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 60,
+   "min_ttc": 1.984853143043222,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.111271641979613,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.9638505860448952,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 1.9638505860448952,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.9638505860448952,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.124513081611737,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 59,
+   "min_ttc": 2.1831869834575497,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 2.1866823433958182,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 1.9874118320275787,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.8796181609990705,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.8796181609990705,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 2.184296749482619,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.0982582325743575,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 175,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 58,
+   "min_ttc": 1.991297387175199,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.0982582325743575,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 1.971206332044252,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 175,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 151,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 1.971206332044252,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.2423885263613488,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.2779705873625904,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 119,
+   "min_ttc": 3.644945259861439,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.2423885263613488,
+   "collision": false
+  }
+ },
+ "245-240-1451-1663|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.3470860760696266,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.00978553185075,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 119,
+   "min_ttc": 3.6021809618638407,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.3470860760696266,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.9845967252973296,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 69,
+   "min_ttc": 2.5031221291964805,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.9845967252973296,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.574857863911343,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 134,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.574857863911343,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.93382889614775,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.4246900386898944,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 2.4246900386898944,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.052958916738871,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 2.846232134635708,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 2.846232134635708,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 2.846232134635708,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.045254532527532,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.9722860985797035,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 67,
+   "min_ttc": 2.500320765546501,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.9722860985797035,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.498260094393729,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 1.5376609521854925,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.498260094393729,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.13371321184375,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.825994802737118,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 69,
+   "min_ttc": 3.44292952752626,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.13371321184375,
+   "collision": false
+  }
+ },
+ "903-862-5324-5502|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.689613667071309,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 7.061429583131498,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 87,
+   "min_ttc": 4.506465783404926,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.689613667071309,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.5535494640226335,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 62,
+   "min_ttc": 1.4611775203322133,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.5535494640226335,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 6.193092155317193,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.6002339690317356,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 6.193092155317193,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 6.193092155317193,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 6.32231115658633,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.79777606976989,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 4.79777606976989,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 6.32231115658633,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 9.033601352189589,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.78800286879509,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 5.78800286879509,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 8.748297091142248,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 2.2446684462230837,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 113,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 56,
+   "min_ttc": 1.5949040174222007,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 2.2446684462230837,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 5.528624455402477,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 113,
+   "min_ttc": 1.1891747205396617,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 5.528624455402477,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 5.528624455402477,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 6.32231115658633,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 6.32231115658633,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 57,
+   "min_ttc": 6.32231115658633,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 6.32231115658633,
+   "collision": false
+  }
+ },
+ "530-524-3700-3854|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 7.832127198586606,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": Infinity,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 6.543438472938052,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 7.832127198586606,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.557559002982452,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 143,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.557559002982452,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.027935382832619,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 143,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.027935382832619,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.6355456574728255,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.49233898614979754,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 0.49233898614979754,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.8422104458676123,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 3.7316768394918185,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.8590443343080925,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 1.8590443343080925,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.8480445853192844,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.4911363528884043,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 101,
+   "min_ttc": 0.8627461433727363,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.4911363528884043,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 2.9225865182024906,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 101,
+   "min_ttc": 1.5984065764927489,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 2.9225865182024906,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|stale_replay|50": {
+  "physics": {
+   "alert_idx": 176,
+   "min_ttc": 3.8511390864505612,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8511390864505612,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 164,
+   "min_ttc": 3.8511390864505612,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.8452456258717893,
+   "collision": false
+  }
+ },
+ "1502-1030-7049-7260|stale_replay|80": {
+  "physics": {
+   "alert_idx": 176,
+   "min_ttc": 3.8480445853192844,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.8480445853192844,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 164,
+   "min_ttc": 3.8480445853192844,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.8480445853192844,
+   "collision": false
+  }
+ },
+ "63-60-467-638|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 4.058982885849559,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 67,
+   "min_ttc": 1.2879007825897713,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 4.058982885849559,
+   "collision": false
+  }
+ },
+ "63-60-467-638|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 5.000234876286197,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 0.5854972253104304,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 89,
+   "min_ttc": 2.51607901170576,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 5.000234876286197,
+   "collision": false
+  }
+ },
+ "63-60-467-638|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 7.847538089655291,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 4.234531082028591,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 4.234531082028591,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 7.739846085266441,
+   "collision": false
+  }
+ },
+ "63-60-467-638|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 113,
+   "min_ttc": 7.967983356944072,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 5.032321736488589,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": null,
+   "min_ttc": 5.032321736488589,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 7.742896647325456,
+   "collision": false
+  }
+ },
+ "63-60-467-638|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.587671935524415,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 122,
+   "min_ttc": 0.0,
+   "collision": true
+  },
+  "rf": {
+   "alert_idx": 61,
+   "min_ttc": 1.5939649218631384,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.587671935524415,
+   "collision": false
+  }
+ },
+ "63-60-467-638|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 4.461380940090049,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 122,
+   "min_ttc": 2.1483210217018667,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 82,
+   "min_ttc": 4.461380940090049,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 4.461380940090049,
+   "collision": false
+  }
+ },
+ "63-60-467-638|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 7.63471036614634,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 12.708163847558744,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 54,
+   "min_ttc": 7.603097076833104,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 7.63471036614634,
+   "collision": false
+  }
+ },
+ "63-60-467-638|stale_replay|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 7.35435363886291,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 24.410775322746076,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 85,
+   "min_ttc": 7.22782809745275,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 7.35435363886291,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|step_offset|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.9253562649196594,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 3.3199405945278864,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|step_offset|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.6865998724388858,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.925971524698915,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 3.320837384813346,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.6865998724388858,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|ramp_drift|50": {
+  "physics": {
+   "alert_idx": 83,
+   "min_ttc": 3.6993620400254,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.0892473593612713,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 3.6722932178712036,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 53,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|ramp_drift|80": {
+  "physics": {
+   "alert_idx": 112,
+   "min_ttc": 3.6223898962054393,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.3285373407723493,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 3.6934037018264156,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 83,
+   "min_ttc": 3.701860784792675,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|speed_spoof|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.6596299051894507,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 55,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|speed_spoof|80": {
+  "physics": {
+   "alert_idx": 82,
+   "min_ttc": 3.6843016554758354,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 1.6604024353944555,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 93,
+   "min_ttc": 3.387179054817333,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.6843016554758354,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|stale_replay|50": {
+  "physics": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": 58,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 52,
+   "min_ttc": 3.702157444269427,
+   "collision": false
+  }
+ },
+ "968-909-5682-5833|stale_replay|80": {
+  "physics": {
+   "alert_idx": null,
+   "min_ttc": 3.716935250051028,
+   "collision": false
+  },
+  "if": {
+   "alert_idx": null,
+   "min_ttc": 3.716935250051028,
+   "collision": false
+  },
+  "rf": {
+   "alert_idx": 98,
+   "min_ttc": 3.70413583799372,
+   "collision": false
+  },
+  "rf_temporal": {
+   "alert_idx": 82,
+   "min_ttc": 3.702378613388125,
+   "collision": false
+  }
+ }
+}

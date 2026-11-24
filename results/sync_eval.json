@@ -1,0 +1,177 @@
+{
+ "tracks": {
+  "track1_cav_bsm": {
+   "branches": 3,
+   "frames": 898,
+   "pre_gate_digest_identical_across_branches": true,
+   "repeat_run_bit_identical": true,
+   "post_gate_digests_distinct": true,
+   "max_query_err_ms": {
+    "interp": 0.0,
+    "hold": 67.0,
+    "nearest": 33.0
+   },
+   "out_of_range_frames": 0
+  },
+  "track2_ev_ocpp": {
+   "branches": 3,
+   "frames": 2701,
+   "pre_gate_digest_identical_across_branches": true,
+   "repeat_run_bit_identical": true,
+   "post_gate_digests_distinct": true,
+   "max_query_err_ms": {
+    "interp": 0.0,
+    "hold": 33.0,
+    "nearest": 17.0
+   },
+   "out_of_range_frames": 0
+  },
+  "track3_av_can": {
+   "branches": 3,
+   "frames": 322,
+   "pre_gate_digest_identical_across_branches": true,
+   "repeat_run_bit_identical": true,
+   "post_gate_digests_distinct": false,
+   "max_query_err_ms": {
+    "interp": 0.0,
+    "hold": 67.0,
+    "nearest": 33.0
+   },
+   "out_of_range_frames": 0
+  },
+  "track4_ids_audit": {
+   "branches": 4,
+   "frames": 739,
+   "pre_gate_digest_identical_across_branches": true,
+   "repeat_run_bit_identical": true,
+   "post_gate_digests_distinct": false,
+   "max_query_err_ms": {
+    "interp": 0.0,
+    "hold": 67.0,
+    "nearest": 33.0
+   },
+   "out_of_range_frames": 0
+  },
+  "track5_ctf": {
+   "branches": 2,
+   "frames": 2701,
+   "pre_gate_digest_identical_across_branches": true,
+   "repeat_run_bit_identical": true,
+   "post_gate_digests_distinct": false,
+   "max_query_err_ms": {
+    "interp": 0.0,
+    "hold": 33.0,
+    "nearest": 17.0
+   },
+   "out_of_range_frames": 0
+  }
+ },
+ "offset_recovery": [
+  {
+   "signal": "NGSIM leader speed",
+   "true_ms": 230.0,
+   "est_ms": 230.00004903029486,
+   "abs_err_ms": 4.9030294860585855e-05
+  },
+  {
+   "signal": "NGSIM leader speed",
+   "true_ms": 137.0,
+   "est_ms": 137.00008626267294,
+   "abs_err_ms": 8.626267293720957e-05
+  },
+  {
+   "signal": "NGSIM leader speed",
+   "true_ms": -41.0,
+   "est_ms": -41.00001265447384,
+   "abs_err_ms": 1.265447384213303e-05
+  },
+  {
+   "signal": "NGSIM leader speed",
+   "true_ms": -137.0,
+   "est_ms": -137.00015247513429,
+   "abs_err_ms": 0.00015247513428562343
+  },
+  {
+   "signal": "NGSIM leader speed",
+   "true_ms": -220.0,
+   "est_ms": -219.99997011873805,
+   "abs_err_ms": 2.9881261951913984e-05
+  },
+  {
+   "signal": "NGSIM follower speed",
+   "true_ms": 230.0,
+   "est_ms": 229.99986191494668,
+   "abs_err_ms": 0.00013808505332235654
+  },
+  {
+   "signal": "NGSIM follower speed",
+   "true_ms": 137.0,
+   "est_ms": 136.99985087273635,
+   "abs_err_ms": 0.00014912726365423623
+  },
+  {
+   "signal": "NGSIM follower speed",
+   "true_ms": -41.0,
+   "est_ms": -41.00073345983721,
+   "abs_err_ms": 0.0007334598372068513
+  },
+  {
+   "signal": "NGSIM follower speed",
+   "true_ms": -137.0,
+   "est_ms": -137.00009286339372,
+   "abs_err_ms": 9.28633937178347e-05
+  },
+  {
+   "signal": "NGSIM follower speed",
+   "true_ms": -220.0,
+   "est_ms": -219.99989813527688,
+   "abs_err_ms": 0.00010186472312057049
+  }
+ ],
+ "reconstruction": {
+  "ngsim_leader": {
+   "speed_mps": {
+    "mae": 0.030981181208053706,
+    "p95": 0.1424177999999979,
+    "max": 0.3154679999999992
+   },
+   "local_y_m": {
+    "mae": 0.006408471140940414,
+    "p95": 0.02974085999994429,
+    "max": 0.056235600000007935
+   }
+  },
+  "ev_session_power_1Hz": {
+   "mae": 0.0,
+   "p95": 0.0,
+   "max": 0.0
+  },
+  "kitti_oxts_speed": {
+   "mae": 0.00247122649214813,
+   "p95": 0.007406950960505476,
+   "max": 0.011018328752475881
+  }
+ },
+ "clock_arith": {
+  "24": {
+   "max_rounding_err_ms": 0.33333333337213844
+  },
+  "25": {
+   "max_rounding_err_ms": 0.0
+  },
+  "30": {
+   "max_rounding_err_ms": 0.33333333337213844
+  },
+  "50": {
+   "max_rounding_err_ms": 0.0
+  },
+  "60": {
+   "max_rounding_err_ms": 0.33333333337213844
+  }
+ },
+ "kitti_real_clock_offset_ms": {
+  "velodyne_minus_oxts_mean": -16.935185185185187,
+  "min": -24.0,
+  "max": -11.0
+ }
+}

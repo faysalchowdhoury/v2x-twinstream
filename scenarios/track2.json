@@ -1,0 +1,116 @@
+{
+ "id": "track2_ev_ocpp",
+ "title": "Track 2 - EV: Forged OCPP SetChargingProfile + falsified MeterValues",
+ "domain": "ev",
+ "fps": 30,
+ "duration_ms": 90000,
+ "requires": [
+  "Norway EV sample (bundled)"
+ ],
+ "summary": "Real charging sessions from one Norwegian site. At t=300 s an attacker raises every constant-current charger to 32 A while MeterValues keep reporting the old values.",
+ "data": {
+  "attack": "stealth_meter_fdi",
+  "t_a_s": 300.0,
+  "time_scale": 20.0
+ },
+ "start": "n_obs",
+ "nodes": [
+  {
+   "id": "n_obs",
+   "t_start_ms": 0,
+   "t_end_ms": 15250,
+   "title": "Observe",
+   "narration": "Session energies, plug-in and plug-out times are real (Zenodo 13896176); the CC-CV power profile is reconstructed so delivered energy matches exactly. 1 s of data = 50 ms of playback.",
+   "defender": [
+    {
+     "t_ms": 0,
+     "text": "Per-charger meters and feeder agree."
+    },
+    {
+     "t_ms": 15000,
+     "text": "Chargers jump to 32 A; meters still report the old values."
+    },
+    {
+     "t_ms": 15100,
+     "text": "Feeder balance: reported power does not match feeder power."
+    }
+   ],
+   "gate": {
+    "t_ms": 15250,
+    "question": "Meter data look normal but the feeder-balance check fails. Response?",
+    "options": [
+     {
+      "id": "ignore",
+      "label": "Trust the meters; ignore the feeder mismatch",
+      "effect": "ignore",
+      "next": "n_ignore",
+      "feedback": "Stealth FDI: only the feeder balance exposes it.",
+      "score": -10
+     },
+     {
+      "id": "revert_now",
+      "label": "Re-issue the rated-limit profile now",
+      "effect": "revert_now",
+      "next": "n_revert",
+      "feedback": "Correct: restore the rated limit based on physics, not the forged meters.",
+      "score": 10
+     },
+     {
+      "id": "wait_confirm",
+      "label": "Collect 5 more minutes of evidence",
+      "effect": "wait_confirm",
+      "next": "n_wait",
+      "feedback": "Five minutes of overload and voltage sag.",
+      "score": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "n_ignore",
+   "t_start_ms": 15250,
+   "t_end_ms": 90000,
+   "terminal": true,
+   "title": "Outcome: ignored",
+   "narration": "Chargers stay at 32 A for the rest of the window.",
+   "defender": [
+    {
+     "t_ms": 15250,
+     "text": "No action."
+    }
+   ]
+  },
+  {
+   "id": "n_revert",
+   "t_start_ms": 15250,
+   "t_end_ms": 90000,
+   "terminal": true,
+   "title": "Outcome: profile re-issued",
+   "narration": "SetChargingProfile at the rated current ends the overload after the 2 s command delay.",
+   "defender": [
+    {
+     "t_ms": 15250,
+     "text": "SetChargingProfile(rated limit) to all connectors."
+    }
+   ]
+  },
+  {
+   "id": "n_wait",
+   "t_start_ms": 15250,
+   "t_end_ms": 90000,
+   "terminal": true,
+   "title": "Outcome: delayed",
+   "narration": "Evidence collection costs five minutes of overload.",
+   "defender": [
+    {
+     "t_ms": 15250,
+     "text": "Collecting evidence..."
+    },
+    {
+     "t_ms": 30250,
+     "text": "Profile re-issued."
+    }
+   ]
+  }
+ ]
+}

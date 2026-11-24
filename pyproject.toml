@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "v2x-twinstream"
+version = "1.0.0"
+description = "Synchronized cyber-physical telemetry and branching incident-response video-track system for EV, CAV and AV security"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+  "fastapi", "uvicorn", "pydantic", "numpy", "pandas", "scipy", "scikit-learn", "matplotlib",
+  # used by the data adapters / CTF tooling
+  "pyproj", "pillow", "imageio", "imageio-ffmpeg", "httpx",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["backend*"]

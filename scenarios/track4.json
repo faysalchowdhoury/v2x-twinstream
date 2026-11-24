@@ -1,0 +1,136 @@
+{
+ "id": "track4_ids_audit",
+ "title": "Track 4 - Consequence-aware IDS audit: which detector do you deploy?",
+ "domain": "cav",
+ "fps": 30,
+ "duration_ms": 24600,
+ "requires": [
+  "NGSIM sample (bundled)",
+  "results/cav_alerts.json"
+ ],
+ "summary": "A stealthy ramp-drift attack on real traffic. You choose the detector BEFORE the attack; its measured behaviour (9-fold, group-held-out benchmark) decides the physical outcome.",
+ "data": {
+  "pair": [
+   1311,
+   1293,
+   7315,
+   7561
+  ],
+  "attack": "ramp_drift",
+  "t_a_idx": 80
+ },
+ "start": "n_pick",
+ "nodes": [
+  {
+   "id": "n_pick",
+   "t_start_ms": 0,
+   "t_end_ms": 2000,
+   "title": "Choose the detector",
+   "narration": "Same real traffic, same attack (the claimed position drifts at 0.5 m/s up to 15 m from t=8.0 s); only the deployed IDS differs. Alert times are the measured ones from the held-out evaluation, shown for a representative case chosen by a fixed rule (see scenarios/README.md).",
+   "defender": [
+    {
+     "t_ms": 0,
+     "text": "Candidates: Isolation Forest, Random Forest, RF + physics residual features, physics verifier."
+    },
+    {
+     "t_ms": 8000,
+     "text": "Ramp drift begins (0.5 m/s)."
+    }
+   ],
+   "gate": {
+    "t_ms": 2000,
+    "question": "Which detector guards this follower?",
+    "options": [
+     {
+      "id": "deploy_if",
+      "label": "Isolation Forest (benign-only training)",
+      "effect": "deploy_if",
+      "next": "n_if",
+      "feedback": "IF never alerted on this drift.",
+      "score": -5
+     },
+     {
+      "id": "deploy_rf",
+      "label": "Random Forest (supervised)",
+      "effect": "deploy_rf",
+      "next": "n_rf",
+      "feedback": "RF never alerted on this drift.",
+      "score": -5
+     },
+     {
+      "id": "deploy_rf_temporal",
+      "label": "RF + physics-residual features",
+      "effect": "deploy_rf_temporal",
+      "next": "n_rft",
+      "feedback": "Physics features close most of the gap.",
+      "score": 7
+     },
+     {
+      "id": "deploy_physics",
+      "label": "Physics verifier (v = v0 + a dt, dx = v dt, gap cross-check)",
+      "effect": "deploy_physics",
+      "next": "n_phys",
+      "feedback": "Alerts on inconsistency itself, even when features look benign.",
+      "score": 10
+     }
+    ]
+   }
+  },
+  {
+   "id": "n_if",
+   "t_start_ms": 2000,
+   "t_end_ms": 24600,
+   "terminal": true,
+   "title": "Outcome: Isolation Forest",
+   "narration": "No alert; the drift grows to 15 m.",
+   "defender": [
+    {
+     "t_ms": 2000,
+     "text": "IF deployed."
+    }
+   ]
+  },
+  {
+   "id": "n_rf",
+   "t_start_ms": 2000,
+   "t_end_ms": 24600,
+   "terminal": true,
+   "title": "Outcome: Random Forest",
+   "narration": "No alert; the drift grows to 15 m.",
+   "defender": [
+    {
+     "t_ms": 2000,
+     "text": "RF deployed."
+    }
+   ]
+  },
+  {
+   "id": "n_rft",
+   "t_start_ms": 2000,
+   "t_end_ms": 24600,
+   "terminal": true,
+   "title": "Outcome: RF + physics features",
+   "narration": "Alert shortly after the attack begins.",
+   "defender": [
+    {
+     "t_ms": 2000,
+     "text": "RF with physics-residual features deployed."
+    }
+   ]
+  },
+  {
+   "id": "n_phys",
+   "t_start_ms": 2000,
+   "t_end_ms": 24600,
+   "terminal": true,
+   "title": "Outcome: physics verifier",
+   "narration": "Alert once the accumulated drift violates the kinematic identities.",
+   "defender": [
+    {
+     "t_ms": 2000,
+     "text": "Physics verifier deployed."
+    }
+   ]
+  }
+ ]
+}

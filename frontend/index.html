@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>V2X-TwinStream</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>V2X-TwinStream <span>synchronized cyber-physical incident-response tracks</span></h1>
+  <div class="hdr-right">
+    <label for="trackSel">Track</label>
+    <select id="trackSel"></select>
+    <div class="score">Score <b id="score">0</b></div>
+  </div>
+</header>
+
+<main>
+  <section class="feed" id="povFeed">
+    <h2>1 &middot; Physical POV <small id="povNote"></small></h2>
+    <div class="povbox">
+      <canvas id="pov" width="900" height="560"></canvas>
+      <video id="ctfVideo" muted loop playsinline preload="auto" hidden></video>
+    </div>
+  </section>
+
+  <section class="feed" id="telFeed">
+    <h2>2 &middot; Live telemetry <small id="digest"></small></h2>
+    <div id="readouts" class="readouts"></div>
+    <canvas id="charts" width="900" height="760"></canvas>
+  </section>
+
+  <section class="feed" id="defFeed">
+    <h2>3 &middot; Defender walkthrough</h2>
+    <div id="nodeTitle" class="nodeTitle"></div>
+    <p id="narration"></p>
+    <ol id="steps"></ol>
+    <div id="feedback"></div>
+    <div id="ctfPanel" hidden>
+      <h3>CTF console</h3>
+      <div class="row"><button id="btnExtract">Decode hash from footage</button><code id="extracted"></code></div>
+      <div class="row"><input id="hashIn" placeholder="manifest sha256" size="30"><button id="btnVerify">Verify artifacts</button></div>
+      <div class="row"><a href="/api/ctf/artifacts/telemetry.csv">telemetry.csv</a><a href="/api/ctf/artifacts/capture.pcap">capture.pcap</a><a href="/api/ctf/manifest" target="_blank">manifest</a><a href="/api/ctf/video">video</a></div>
+      <div class="row"><input id="flagIn" placeholder="TWIN{...}" size="30"><button id="btnFlag">Submit flag</button></div>
+      <div id="ctfMsg"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <button id="btnPlay">Play</button>
+  <input id="scrub" type="range" min="0" max="1000" value="0">
+  <span id="clock">0.000 s &middot; frame 0</span>
+  <label>Speed <select id="rate"><option>0.5</option><option selected>1</option><option>2</option><option>4</option></select></label>
+</footer>
+
+<div id="modal" class="modal" hidden>
+  <div class="card">
+    <div id="modalKind" class="kind"></div>
+    <h3 id="modalTitle"></h3>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+{
+ "id": "track3_av_can",
+ "title": "Track 3 - AV: CAN brake-arbitration tamper",
+ "domain": "av",
+ "fps": 30,
+ "duration_ms": 10700,
+ "requires": [
+  "KITTI raw 2011_09_26_drive_0001 (downloaded at run time, CC BY-NC-SA)"
+ ],
+ "summary": "A rogue CAN node requests -5 m/s^2 for 1.5 s while the planner commanded nothing of the sort. A human-driven car follows closely behind.",
+ "data": {
+  "k_a": 30,
+  "decel": -5.0
+ },
+ "start": "n_obs",
+ "nodes": [
+  {
+   "id": "n_obs",
+   "t_start_ms": 0,
+   "t_end_ms": 3300,
+   "title": "Observe",
+   "narration": "Real KITTI drive. The commanded acceleration is derived from OXTS. At t=3.0 s extra brake requests appear on the bus; the command-vs-response check flags it after 200 ms.",
+   "defender": [
+    {
+     "t_ms": 0,
+     "text": "Requested acceleration tracks the planner."
+    },
+    {
+     "t_ms": 3000,
+     "text": "Brake request deviates by -5 m/s^2 from the plan."
+    },
+    {
+     "t_ms": 3200,
+     "text": "Verifier: command-vs-plan residual > 1.0 m/s^2 for 3 frames."
+    }
+   ],
+   "gate": {
+    "t_ms": 3300,
+    "question": "An unplanned hard-brake request is on the bus. What now?",
+    "options": [
+     {
+      "id": "ignore",
+      "label": "Let the actuator obey the bus",
+      "effect": "ignore",
+      "next": "n_ignore",
+      "feedback": "Hard brake in front of a close follower.",
+      "score": -10
+     },
+     {
+      "id": "cancel_now",
+      "label": "Cancel the override, hold planned speed",
+      "effect": "cancel_now",
+      "next": "n_cancel",
+      "feedback": "Correct: arbitration should trust the planner, not an unexplained request.",
+      "score": 10
+     },
+     {
+      "id": "wait_confirm",
+      "label": "Wait one second for confirmation",
+      "effect": "wait_confirm",
+      "next": "n_wait",
+      "feedback": "One second is most of the attack window.",
+      "score": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "n_ignore",
+   "t_start_ms": 3300,
+   "t_end_ms": 10700,
+   "terminal": true,
+   "title": "Outcome: obeyed",
+   "narration": "The ego car brakes hard; the follower reacts 1.2 s later.",
+   "defender": [
+    {
+     "t_ms": 3300,
+     "text": "No action."
+    }
+   ]
+  },
+  {
+   "id": "n_cancel",
+   "t_start_ms": 3300,
+   "t_end_ms": 10700,
+   "terminal": true,
+   "title": "Outcome: override cancelled",
+   "narration": "The override is cancelled after the 0.2 s actuation delay.",
+   "defender": [
+    {
+     "t_ms": 3300,
+     "text": "Gateway drops the unplanned brake frames."
+    }
+   ]
+  },
+  {
+   "id": "n_wait",
+   "t_start_ms": 3300,
+   "t_end_ms": 10700,
+   "terminal": true,
+   "title": "Outcome: delayed",
+   "narration": "One more second of braking before the override is cancelled.",
+   "defender": [
+    {
+     "t_ms": 3300,
+     "text": "Waiting..."
+    },
+    {
+     "t_ms": 4300,
+     "text": "Override cancelled."
+    }
+   ]
+  }
+ ]
+}

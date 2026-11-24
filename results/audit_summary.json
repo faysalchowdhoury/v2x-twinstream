@@ -1,0 +1,854 @@
+{
+ "cav": {
+  "physics": {
+   "step_offset": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "p_msg": 1.0,
+    "r_msg": 1.0,
+    "f1_msg": 1.0,
+    "collision_rate": 0.0,
+    "median_min_ttc": 2.872522638311488,
+    "median_min_gap": 3.971737837395665
+   },
+   "ramp_drift": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 3200.0,
+    "p_msg": 1.0,
+    "r_msg": 0.7741492864983535,
+    "f1_msg": 0.8726991492652746,
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.679592614397939,
+    "median_min_gap": 4.357244703705658
+   },
+   "speed_spoof": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "p_msg": 1.0,
+    "r_msg": 0.9964324917672887,
+    "f1_msg": 0.998213058419244,
+    "collision_rate": 0.0,
+    "median_min_ttc": 2.7462035046557887,
+    "median_min_gap": 3.908535525852855
+   },
+   "stale_replay": {
+    "n": 54,
+    "detect_rate": 0.9814814814814815,
+    "median_latency_ms": 200.0,
+    "p_msg": 1.0,
+    "r_msg": 0.7004665203073546,
+    "f1_msg": 0.8238521746147018,
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.844204203915334,
+    "median_min_gap": 5.124652162008948
+   },
+   "benign_false_alarm_rate": 0.0
+  },
+  "if": {
+   "step_offset": {
+    "n": 54,
+    "detect_rate": 0.12962962962962962,
+    "median_latency_ms": 9800.0,
+    "p_msg": 1.0,
+    "r_msg": 0.015367727771679473,
+    "f1_msg": 0.03027027027027027,
+    "collision_rate": 0.8333333333333334,
+    "median_min_ttc": 0.0,
+    "median_min_gap": -5.944839125181221
+   },
+   "ramp_drift": {
+    "n": 54,
+    "detect_rate": 0.09259259259259259,
+    "median_latency_ms": 12800.0,
+    "p_msg": 1.0,
+    "r_msg": 0.013035126234906696,
+    "f1_msg": 0.025734796153325207,
+    "collision_rate": 0.25925925925925924,
+    "median_min_ttc": 2.2905974025274762,
+    "median_min_gap": 2.103056604480372
+   },
+   "speed_spoof": {
+    "n": 54,
+    "detect_rate": 0.46296296296296297,
+    "median_latency_ms": 7700.0,
+    "p_msg": 1.0,
+    "r_msg": 0.04788693743139407,
+    "f1_msg": 0.09139714547597223,
+    "collision_rate": 0.8333333333333334,
+    "median_min_ttc": 0.0,
+    "median_min_gap": -7.282547497166175
+   },
+   "stale_replay": {
+    "n": 54,
+    "detect_rate": 0.2222222222222222,
+    "median_latency_ms": 11150.0,
+    "p_msg": 1.0,
+    "r_msg": 0.010702524698133918,
+    "f1_msg": 0.02117838718436058,
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8463043127212977,
+    "median_min_gap": 5.124652162008948
+   },
+   "benign_false_alarm_rate": 0.3333333333333333
+  },
+  "rf": {
+   "step_offset": {
+    "n": 54,
+    "detect_rate": 0.9629629629629629,
+    "median_latency_ms": 1850.0,
+    "p_msg": 1.0,
+    "r_msg": 0.5588638858397366,
+    "f1_msg": 0.7170143473285803,
+    "collision_rate": 0.24074074074074073,
+    "median_min_ttc": 1.3044269158257222,
+    "median_min_gap": 1.96998299752984
+   },
+   "ramp_drift": {
+    "n": 54,
+    "detect_rate": 0.6666666666666666,
+    "median_latency_ms": 5200.0,
+    "p_msg": 1.0,
+    "r_msg": 0.18880351262349068,
+    "f1_msg": 0.31763619575253926,
+    "collision_rate": 0.12962962962962962,
+    "median_min_ttc": 2.876989717312385,
+    "median_min_gap": 3.0496575366682093
+   },
+   "speed_spoof": {
+    "n": 54,
+    "detect_rate": 0.9629629629629629,
+    "median_latency_ms": 1700.0,
+    "p_msg": 1.0,
+    "r_msg": 0.5256586169045006,
+    "f1_msg": 0.6890907455706449,
+    "collision_rate": 0.2962962962962963,
+    "median_min_ttc": 1.5944344696426695,
+    "median_min_gap": 2.359482060371093
+   },
+   "stale_replay": {
+    "n": 54,
+    "detect_rate": 0.8888888888888888,
+    "median_latency_ms": 1850.0,
+    "p_msg": 1.0,
+    "r_msg": 0.3611416026344676,
+    "f1_msg": 0.5306451612903226,
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8432110037746128,
+    "median_min_gap": 5.124652162008948
+   },
+   "benign_false_alarm_rate": 0.5555555555555556
+  },
+  "rf_temporal": {
+   "step_offset": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "p_msg": 1.0,
+    "r_msg": 1.0,
+    "f1_msg": 1.0,
+    "collision_rate": 0.0,
+    "median_min_ttc": 2.872522638311488,
+    "median_min_gap": 3.971737837395665
+   },
+   "ramp_drift": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 300.0,
+    "p_msg": 1.0,
+    "r_msg": 0.9925905598243688,
+    "f1_msg": 0.9962815039250792,
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8384192288082786,
+    "median_min_gap": 4.690202162055042
+   },
+   "speed_spoof": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "p_msg": 1.0,
+    "r_msg": 1.0,
+    "f1_msg": 1.0,
+    "collision_rate": 0.0,
+    "median_min_ttc": 2.7462035046557887,
+    "median_min_gap": 3.908535525852855
+   },
+   "stale_replay": {
+    "n": 54,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "p_msg": 1.0,
+    "r_msg": 0.9039517014270033,
+    "f1_msg": 0.9495531853560104,
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8435708399825894,
+    "median_min_gap": 4.700273007832277
+   },
+   "benign_false_alarm_rate": 0.07407407407407407
+  },
+  "no_defence": {
+   "step_offset": {
+    "collision_rate": 0.8518518518518519,
+    "median_min_ttc": 0.0,
+    "median_min_gap": -5.944839125181221
+   },
+   "ramp_drift": {
+    "collision_rate": 0.25925925925925924,
+    "median_min_ttc": 2.2905974025274762,
+    "median_min_gap": 2.103056604480372
+   },
+   "speed_spoof": {
+    "collision_rate": 0.9629629629629629,
+    "median_min_ttc": 0.0,
+    "median_min_gap": -7.5888973838122835
+   },
+   "stale_replay": {
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8463043127212977,
+    "median_min_gap": 5.124652162008948
+   }
+  },
+  "oracle": {
+   "step_offset": {
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.0916334259136242,
+    "median_min_gap": 4.232978497189251
+   },
+   "ramp_drift": {
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8424390968261752,
+    "median_min_gap": 4.695607491699033
+   },
+   "speed_spoof": {
+    "collision_rate": 0.0,
+    "median_min_ttc": 2.976959154958065,
+    "median_min_gap": 4.120843076204068
+   },
+   "stale_replay": {
+    "collision_rate": 0.0,
+    "median_min_ttc": 3.8435708399825894,
+    "median_min_gap": 4.699691930767682
+   }
+  },
+  "clean_reference": {
+   "collision_rate": 0.0,
+   "median_min_ttc": 4.153591927772098
+  }
+ },
+ "ev": {
+  "physics": {
+   "current_step": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 1.0,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 28.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "stealth_meter_fdi": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 1.0,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 28.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "oscillation": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 12000.0,
+    "f1_msg": 0.9969929836284664,
+    "median_voltage_dev_pu": 0.012016046223412458,
+    "median_max_f_dev_hz": 0.9281717207925837,
+    "median_overcurrent_charger_s": 0.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.5
+   },
+   "benign_false_alarm_rate": 0.0
+  },
+  "if": {
+   "current_step": {
+    "n": 6,
+    "detect_rate": 0.0,
+    "median_latency_ms": null,
+    "f1_msg": 0.0,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 8687.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "stealth_meter_fdi": {
+    "n": 6,
+    "detect_rate": 0.16666666666666666,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 0.09134258768676487,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 8194.5,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "oscillation": {
+    "n": 6,
+    "detect_rate": 0.8333333333333334,
+    "median_latency_ms": 5000.0,
+    "f1_msg": 0.6887966804979253,
+    "median_voltage_dev_pu": 0.012021246496001337,
+    "median_max_f_dev_hz": 0.800143928458688,
+    "median_overcurrent_charger_s": 0.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.16666666666666666
+   },
+   "benign_false_alarm_rate": 0.16666666666666666
+  },
+  "rf": {
+   "current_step": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 0.9999444783743268,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 28.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "stealth_meter_fdi": {
+    "n": 6,
+    "detect_rate": 0.16666666666666666,
+    "median_latency_ms": 1235000.0,
+    "f1_msg": 0.04217391304347826,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 8687.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "oscillation": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 0.9999444783743268,
+    "median_voltage_dev_pu": 0.012023484088827086,
+    "median_max_f_dev_hz": 0.014831635766032747,
+    "median_overcurrent_charger_s": 0.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.0
+   },
+   "benign_false_alarm_rate": 0.16666666666666666
+  },
+  "rf_feeder": {
+   "current_step": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 0.9991665277546258,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 28.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "stealth_meter_fdi": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 1.0,
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 28.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.8333333333333334
+   },
+   "oscillation": {
+    "n": 6,
+    "detect_rate": 1.0,
+    "median_latency_ms": 2000.0,
+    "f1_msg": 0.9991665277546258,
+    "median_voltage_dev_pu": 0.012023484088827086,
+    "median_max_f_dev_hz": 0.014831635766032747,
+    "median_overcurrent_charger_s": 0.0,
+    "undervoltage_rate": 0.0,
+    "f_violation_rate": 0.0
+   },
+   "benign_false_alarm_rate": 0.3333333333333333
+  },
+  "no_defence": {
+   "current_step": {
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 8687.0
+   },
+   "stealth_meter_fdi": {
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 8687.0
+   },
+   "oscillation": {
+    "median_voltage_dev_pu": 0.01191622439945228,
+    "median_max_f_dev_hz": 1.1730314263212698,
+    "median_overcurrent_charger_s": 0.0
+   }
+  },
+  "oracle": {
+   "current_step": {
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 14.0
+   },
+   "stealth_meter_fdi": {
+    "median_voltage_dev_pu": 0.023654796581430715,
+    "median_max_f_dev_hz": 1.4535003050715254,
+    "median_overcurrent_charger_s": 14.0
+   },
+   "oscillation": {
+    "median_voltage_dev_pu": 0.012024978795383778,
+    "median_max_f_dev_hz": 0.014831635766032747,
+    "median_overcurrent_charger_s": 0.0
+   }
+  }
+ },
+ "ev_windows": [
+  {
+   "location": "OSL_S",
+   "window_start": "2019-12-18 23:00:00",
+   "n_chargers": 9,
+   "n_excluded_over_rating": 1,
+   "class": "1ph16A",
+   "cc_active": 8
+  },
+  {
+   "location": "OSL_S",
+   "window_start": "2018-10-18 23:00:00",
+   "n_chargers": 9,
+   "n_excluded_over_rating": 0,
+   "class": "1ph16A",
+   "cc_active": 7
+  },
+  {
+   "location": "OSL_S",
+   "window_start": "2019-02-28 21:00:00",
+   "n_chargers": 8,
+   "n_excluded_over_rating": 0,
+   "class": "1ph16A",
+   "cc_active": 7
+  },
+  {
+   "location": "OSL_S",
+   "window_start": "2019-01-14 23:30:00",
+   "n_chargers": 7,
+   "n_excluded_over_rating": 2,
+   "class": "1ph16A",
+   "cc_active": 6
+  },
+  {
+   "location": "OSL_S",
+   "window_start": "2019-01-15 22:30:00",
+   "n_chargers": 9,
+   "n_excluded_over_rating": 1,
+   "class": "1ph16A",
+   "cc_active": 6
+  },
+  {
+   "location": "OSL_S",
+   "window_start": "2019-02-11 23:00:00",
+   "n_chargers": 7,
+   "n_excluded_over_rating": 0,
+   "class": "1ph16A",
+   "cc_active": 6
+  }
+ ],
+ "av_can": {
+  "physics": {
+   "-5.0": {
+    "n": 5,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "f1_msg": 1.0,
+    "median_min_ttc": 8.333457440001311,
+    "median_min_gap": 11.53351905470798
+   },
+   "-1.5": {
+    "n": 5,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "f1_msg": 1.0,
+    "median_min_ttc": 11.14244159535109,
+    "median_min_gap": 11.843519054707983
+   },
+   "benign_false_alarm_rate": 0.0
+  },
+  "if": {
+   "-5.0": {
+    "n": 5,
+    "detect_rate": 0.0,
+    "median_latency_ms": null,
+    "f1_msg": 0.04938271604938272,
+    "median_min_ttc": 3.2571102196277253,
+    "median_min_gap": 9.211669660775797
+   },
+   "-1.5": {
+    "n": 5,
+    "detect_rate": 0.0,
+    "median_latency_ms": null,
+    "f1_msg": 0.05194805194805195,
+    "median_min_ttc": 10.611224529265126,
+    "median_min_gap": 11.78351905470798
+   },
+   "benign_false_alarm_rate": 0.0
+  },
+  "rf": {
+   "-5.0": {
+    "n": 5,
+    "detect_rate": 1.0,
+    "median_latency_ms": 200.0,
+    "f1_msg": 1.0,
+    "median_min_ttc": 8.333457440001311,
+    "median_min_gap": 11.53351905470798
+   },
+   "-1.5": {
+    "n": 5,
+    "detect_rate": 0.8,
+    "median_latency_ms": 200.0,
+    "f1_msg": 0.7903225806451613,
+    "median_min_ttc": 11.087630842353958,
+    "median_min_gap": 11.793519054708014
+   },
+   "benign_false_alarm_rate": 0.0
+  },
+  "no_defence": {
+   "-5.0": {
+    "median_min_ttc": 3.2571102196277253
+   },
+   "-1.5": {
+    "median_min_ttc": 10.611224529265126
+   }
+  },
+  "oracle": {
+   "-5.0": {
+    "median_min_ttc": 10.699281423445177
+   },
+   "-1.5": {
+    "median_min_ttc": 10.630090961299464
+   }
+  },
+  "clean_reference_min_ttc": 10.64045294725218
+ },
+ "av_ghost": [
+  {
+   "spacing_m": 0.12,
+   "points": 1310,
+   "detector": "physics",
+   "auc": 0.9693287037037037,
+   "detect_rate": 0.8888888888888888,
+   "false_alarm_rate": 0.1111111111111111,
+   "n_frames": 162
+  },
+  {
+   "spacing_m": 0.12,
+   "points": 1310,
+   "detector": "if",
+   "auc": 0.7469135802469136,
+   "detect_rate": 0.8888888888888888,
+   "false_alarm_rate": 0.5,
+   "n_frames": 162
+  },
+  {
+   "spacing_m": 0.12,
+   "points": 1310,
+   "detector": "rf",
+   "auc": 0.8279320987654322,
+   "detect_rate": 1.0,
+   "false_alarm_rate": 0.5555555555555556,
+   "n_frames": 162
+  },
+  {
+   "spacing_m": 0.5,
+   "points": 96,
+   "detector": "physics",
+   "auc": 0.8983410493827161,
+   "detect_rate": 0.6805555555555556,
+   "false_alarm_rate": 0.1111111111111111,
+   "n_frames": 162
+  },
+  {
+   "spacing_m": 0.5,
+   "points": 96,
+   "detector": "if",
+   "auc": 0.5856481481481481,
+   "detect_rate": 0.6111111111111112,
+   "false_alarm_rate": 0.5,
+   "n_frames": 162
+  },
+  {
+   "spacing_m": 0.5,
+   "points": 96,
+   "detector": "rf",
+   "auc": 0.6867283950617283,
+   "detect_rate": 1.0,
+   "false_alarm_rate": 0.5555555555555556,
+   "n_frames": 162
+  }
+ ],
+ "av_ghost_threshold": 0.4666666666666667,
+ "config": {
+  "PHYS_BSM": {
+   "kin_resid_mps": 1.5,
+   "disp_resid_m": 0.3,
+   "gap_resid_m": 1.5,
+   "a_max": 9.0
+  },
+  "PHYS_EV": {
+   "rating_margin": 1.05,
+   "identity_tol": 0.05,
+   "feeder_tol": 0.1,
+   "reversal_a": 2.0,
+   "reversal_count": 3,
+   "reversal_window": 12,
+   "quorum": 3,
+   "persist": 3
+  },
+  "PHYS_AV": {
+   "cmd_resid_mps2": 1.0,
+   "ghost_behind_cfg": [
+    0.15,
+    0.4,
+    4.0
+   ]
+  },
+  "CACC": {
+   "d0": 2.0,
+   "T": 1.2,
+   "k_gap": 0.23,
+   "k_v": 0.8,
+   "a_min": -6.0,
+   "a_max": 2.5,
+   "ttc_brake": 2.0,
+   "actuation_delay_s": 0.5
+  },
+  "ATTACKS": {
+   "step_offset_m": 12.0,
+   "ramp_rate_mps": 0.5,
+   "ramp_cap_m": 15.0,
+   "speed_spoof_mps": 4.0,
+   "replay_delay_s": 3.0
+  },
+  "EV_CONST": {
+   "s_base_kva": 100.0,
+   "r_pu": 0.04,
+   "x_pu": 0.03,
+   "h_s": 5.0,
+   "d_pu": 1.0,
+   "droop_r": 0.05,
+   "tg_s": 2.0,
+   "f_nom": 50.0,
+   "obc_max_a": 32.0,
+   "reaction_cmd_delay_s": 2.0,
+   "dt": 1.0,
+   "v_low_pu": 0.95,
+   "f_dev_limit_hz": 1.0
+  },
+  "AV_CONST": {
+   "aeb_decel": 6.0,
+   "ghost_range_m": 20.0,
+   "aeb_persist_frames": 2,
+   "follower_headway_s": 1.5,
+   "follower_reaction_s": 1.2,
+   "follower_decel": 4.0,
+   "can_attack_s": 1.5,
+   "can_actuation_delay_s": 0.2
+  },
+  "persist_messages": 3
+ },
+ "data": {
+  "cav": "NGSIM Peachtree (US DOT, public domain), 27 leader-follower pairs, 9-fold group-held-out CV",
+  "ev": "Norway EV charging sessions, Zenodo 13896176 (CC BY 4.0); CC-CV power profile reconstructed to conserve the real energy; 6 busy real windows, leave-window-out ML",
+  "av": "KITTI raw 2011_09_26_drive_0001 (CC BY-NC-SA 3.0), CAN signals derived from OXTS, real Velodyne scans"
+ },
+ "sync": {
+  "tracks": {
+   "track1_cav_bsm": {
+    "branches": 3,
+    "frames": 898,
+    "pre_gate_digest_identical_across_branches": true,
+    "repeat_run_bit_identical": true,
+    "post_gate_digests_distinct": true,
+    "max_query_err_ms": {
+     "interp": 0.0,
+     "hold": 67.0,
+     "nearest": 33.0
+    },
+    "out_of_range_frames": 0
+   },
+   "track2_ev_ocpp": {
+    "branches": 3,
+    "frames": 2701,
+    "pre_gate_digest_identical_across_branches": true,
+    "repeat_run_bit_identical": true,
+    "post_gate_digests_distinct": true,
+    "max_query_err_ms": {
+     "interp": 0.0,
+     "hold": 33.0,
+     "nearest": 17.0
+    },
+    "out_of_range_frames": 0
+   },
+   "track3_av_can": {
+    "branches": 3,
+    "frames": 322,
+    "pre_gate_digest_identical_across_branches": true,
+    "repeat_run_bit_identical": true,
+    "post_gate_digests_distinct": false,
+    "max_query_err_ms": {
+     "interp": 0.0,
+     "hold": 67.0,
+     "nearest": 33.0
+    },
+    "out_of_range_frames": 0
+   },
+   "track4_ids_audit": {
+    "branches": 4,
+    "frames": 739,
+    "pre_gate_digest_identical_across_branches": true,
+    "repeat_run_bit_identical": true,
+    "post_gate_digests_distinct": false,
+    "max_query_err_ms": {
+     "interp": 0.0,
+     "hold": 67.0,
+     "nearest": 33.0
+    },
+    "out_of_range_frames": 0
+   },
+   "track5_ctf": {
+    "branches": 2,
+    "frames": 2701,
+    "pre_gate_digest_identical_across_branches": true,
+    "repeat_run_bit_identical": true,
+    "post_gate_digests_distinct": false,
+    "max_query_err_ms": {
+     "interp": 0.0,
+     "hold": 33.0,
+     "nearest": 17.0
+    },
+    "out_of_range_frames": 0
+   }
+  },
+  "offset_recovery": [
+   {
+    "signal": "NGSIM leader speed",
+    "true_ms": 230.0,
+    "est_ms": 230.00004903029486,
+    "abs_err_ms": 4.9030294860585855e-05
+   },
+   {
+    "signal": "NGSIM leader speed",
+    "true_ms": 137.0,
+    "est_ms": 137.00008626267294,
+    "abs_err_ms": 8.626267293720957e-05
+   },
+   {
+    "signal": "NGSIM leader speed",
+    "true_ms": -41.0,
+    "est_ms": -41.00001265447384,
+    "abs_err_ms": 1.265447384213303e-05
+   },
+   {
+    "signal": "NGSIM leader speed",
+    "true_ms": -137.0,
+    "est_ms": -137.00015247513429,
+    "abs_err_ms": 0.00015247513428562343
+   },
+   {
+    "signal": "NGSIM leader speed",
+    "true_ms": -220.0,
+    "est_ms": -219.99997011873805,
+    "abs_err_ms": 2.9881261951913984e-05
+   },
+   {
+    "signal": "NGSIM follower speed",
+    "true_ms": 230.0,
+    "est_ms": 229.99986191494668,
+    "abs_err_ms": 0.00013808505332235654
+   },
+   {
+    "signal": "NGSIM follower speed",
+    "true_ms": 137.0,
+    "est_ms": 136.99985087273635,
+    "abs_err_ms": 0.00014912726365423623
+   },
+   {
+    "signal": "NGSIM follower speed",
+    "true_ms": -41.0,
+    "est_ms": -41.00073345983721,
+    "abs_err_ms": 0.0007334598372068513
+   },
+   {
+    "signal": "NGSIM follower speed",
+    "true_ms": -137.0,
+    "est_ms": -137.00009286339372,
+    "abs_err_ms": 9.28633937178347e-05
+   },
+   {
+    "signal": "NGSIM follower speed",
+    "true_ms": -220.0,
+    "est_ms": -219.99989813527688,
+    "abs_err_ms": 0.00010186472312057049
+   }
+  ],
+  "reconstruction": {
+   "ngsim_leader": {
+    "speed_mps": {
+     "mae": 0.030981181208053706,
+     "p95": 0.1424177999999979,
+     "max": 0.3154679999999992
+    },
+    "local_y_m": {
+     "mae": 0.006408471140940414,
+     "p95": 0.02974085999994429,
+     "max": 0.056235600000007935
+    }
+   },
+   "ev_session_power_1Hz": {
+    "mae": 0.0,
+    "p95": 0.0,
+    "max": 0.0
+   },
+   "kitti_oxts_speed": {
+    "mae": 0.00247122649214813,
+    "p95": 0.007406950960505476,
+    "max": 0.011018328752475881
+   }
+  },
+  "clock_arith": {
+   "24": {
+    "max_rounding_err_ms": 0.33333333337213844
+   },
+   "25": {
+    "max_rounding_err_ms": 0.0
+   },
+   "30": {
+    "max_rounding_err_ms": 0.33333333337213844
+   },
+   "50": {
+    "max_rounding_err_ms": 0.0
+   },
+   "60": {
+    "max_rounding_err_ms": 0.33333333337213844
+   }
+  },
+  "kitti_real_clock_offset_ms": {
+   "velodyne_minus_oxts_mean": -16.935185185185187,
+   "min": -24.0,
+   "max": -11.0
+  }
+ }
+}

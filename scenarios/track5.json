@@ -1,0 +1,89 @@
+{
+ "id": "track5_ctf",
+ "title": "Track 5 - CTF: the hash in the footage",
+ "domain": "ctf",
+ "fps": 30,
+ "duration_ms": 90000,
+ "requires": [
+  "Norway EV sample (bundled)"
+ ],
+ "summary": "Incident footage, a telemetry CSV and a packet capture. A SHA-256 manifest hash is embedded in every video frame. Prove the artifacts match the footage, then find the forged OCPP message.",
+ "data": {
+  "t_a_s": 300.0,
+  "time_scale": 20.0
+ },
+ "start": "n_obs",
+ "nodes": [
+  {
+   "id": "n_obs",
+   "t_start_ms": 0,
+   "t_end_ms": 16000,
+   "title": "Triage",
+   "narration": "Watch the footage. Blocks in the bottom strip carry the manifest hash. The CSV and PCAP are untrusted until their hash matches.",
+   "defender": [
+    {
+     "t_ms": 0,
+     "text": "Download artifacts: telemetry.csv, capture.pcap."
+    },
+    {
+     "t_ms": 15000,
+     "text": "Current steps to 32 A on the telemetry."
+    },
+    {
+     "t_ms": 15500,
+     "text": "Which SetChargingProfile came from the wrong host?"
+    }
+   ],
+   "gate": {
+    "t_ms": 16000,
+    "question": "How do you start?",
+    "options": [
+     {
+      "id": "extract_and_verify",
+      "label": "Decode the hash from the video and verify the artifacts",
+      "effect": "extract_and_verify",
+      "next": "n_verified",
+      "feedback": "Chain of custody first.",
+      "score": 10
+     },
+     {
+      "id": "trust_capture",
+      "label": "Open the PCAP and trust it",
+      "effect": "trust_capture",
+      "next": "n_trusting",
+      "feedback": "A capture of unknown provenance is just an opinion.",
+      "score": -5
+     }
+    ]
+   }
+  },
+  {
+   "id": "n_verified",
+   "t_start_ms": 16000,
+   "t_end_ms": 90000,
+   "terminal": true,
+   "title": "Outcome: verified",
+   "narration": "Hash matches. Now find the SetChargingProfile whose source address differs from the charge point.",
+   "defender": [
+    {
+     "t_ms": 16000,
+     "text": "Run: python -m backend.stego_manifest extract video.mp4"
+    }
+   ]
+  },
+  {
+   "id": "n_trusting",
+   "t_start_ms": 16000,
+   "t_end_ms": 90000,
+   "terminal": true,
+   "title": "Outcome: unverified",
+   "narration": "You proceed without proving the artifacts belong to this incident.",
+   "defender": [
+    {
+     "t_ms": 16000,
+     "text": "Opening capture.pcap without verification."
+    }
+   ]
+  }
+ ]
+}
