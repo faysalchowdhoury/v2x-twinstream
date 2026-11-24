@@ -97,4 +97,6 @@ scripts/   fetch_data.py · make_samples.py · make_scenarios.py          data/s
 
 ## Citation
 
-> Author(s). *V2X-TwinStream: A Synchronized Cyber-Physical Telemetry and Branching Incident-Response Video Track System for EV, CAV and AV Security.* Software, 2026. (Author placeholder: fill in before publishing.)
+> Chowdhoury, F. *V2X-TwinStream: A Synchronized Cyber-Physical Telemetry and Branching Incident-Response Video Track System for EV, CAV and AV Security.* Software, 2026. https://github.com/faysalchowdhoury/v2x-twinstream
+
+**Author:** Dr. Faysal Chowdhoury, Postdoctoral Research Associate.

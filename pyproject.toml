@@ -9,6 +9,7 @@ description = "Synchronized cyber-physical telemetry and branching incident-resp
 readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
+authors = [{ name = "Faysal Chowdhoury" }]
 dependencies = [
   "fastapi", "uvicorn", "pydantic", "numpy", "pandas", "scipy", "scikit-learn", "matplotlib",
   # used by the data adapters / CTF tooling
